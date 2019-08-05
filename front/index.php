@@ -16,17 +16,17 @@ include("../includes/config.php");
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--Google Fonts-->
+<!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Hind:400,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Aladin' rel='stylesheet' type='text/css'>
-<!--google fonts-->
-<!-- animated-css -->
+<!-- Google Fonts -->
+<!-- Animated CSS -->
 		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
 		<script src="js/wow.min.js"></script>
 		<script>
 		 new WOW().init();
 		</script>
-<!-- animated-css -->
+<!-- Animated CSS -->
 <script src="js/modernizr.js"></script>
 <script>
     $(document).ready(function(){
@@ -65,7 +65,7 @@ include("../includes/config.php");
 </head>
 <body>
 <?php include("includes/header.php") ?>
-<!--banner  start hwew-->
+<!-- banner start here -->
 <div class="banner">
 	<div class="container">
 		<div class="banner-main wow zoomIn" data-wow-delay="0.3s">

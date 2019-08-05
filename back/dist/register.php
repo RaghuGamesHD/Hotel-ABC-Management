@@ -1,3 +1,60 @@
+<?php $currentPage = 'Register'; ?> 
+<!doctype html>
+<html lang="en">
+<head>
+    <?php include ("includes/head.php") ?>
+</head>
+<body class="sidebar-fixed header-fixed">
+<div class="page-wrapper">
+    <?php include ("includes/header.php") ?>
+
+    <div class="main-container">
+        <?php include ("includes/sidebar.php") ?>
+
+        <div class="content">
+            <div class="card p-4">
+                <div class="text-center text-uppercase h4 font-weight-light">
+                        Register New User
+                    </div>
+
+                    <div>
+                        <div class="form-group">
+                            <label class="form-control-label">Name</label>
+                            <input type="name" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-control-label">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-control-label">Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-control-label">Confirm Password</label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-success btn-block">Create Account</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<script src="./vendor/jquery/jquery.min.js"></script>
+<script src="./vendor/popper.js/popper.min.js"></script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="./vendor/chart.js/chart.min.js"></script>
+<script src="./js/carbon.js"></script>
+<script src="./js/demo.js"></script>
+</body>
+</html>
+
+<!--
 <!doctype html>
 <html lang="en">
 <head>
@@ -57,3 +114,4 @@
 <script src="./js/demo.js"></script>
 </body>
 </html>
+-->

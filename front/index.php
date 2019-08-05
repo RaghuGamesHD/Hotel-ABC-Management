@@ -56,7 +56,7 @@ include("../includes/config.php");
 	<div class = "leaves-main wow zoomIn animated" align = "center">
 	<a href = "#" class = "hvr-push"> Book Now </a>
 	&nbsp; &nbsp; &nbsp; &nbsp;
-	<a href = "login.php" class = "hvr-push"> Management Login </a>
+	<a href = "../back/dist/login.php" class = "hvr-push"> Management Login </a>
 	</div>
 	</div>
 </div>

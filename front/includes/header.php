@@ -58,7 +58,7 @@ function activeClass($page) {
 						<li><a <?php activeClass('Services') ?>href="services.php" data-hover="Services">Services</a></li>
 						<li><a <?php activeClass('Room') ?>href="room.php" data-hover="Rooms">Rooms</a></li>
 						<li><a href="shortcodes.html" data-hover="Shortcodes">Shortcodes</a></li>
-						<li><a <?php activeClass('Login') ?>href="login.php" data-hover="Login">Login</a></li>
+						<li><a <?php activeClass('Login') ?>href="../back/dist/login.php" data-hover="Login">Login</a></li>
 						<li><a <?php activeClass('Contact') ?>href="contact.php" data-hover="Contact">Contact</a></li>						
 		              </ul>
 		            </nav>

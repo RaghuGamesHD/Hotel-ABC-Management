@@ -1,3 +1,4 @@
+<title>Hotel ABC - <?php echo $currentPage; ?></title> 
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>

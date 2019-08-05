@@ -1,7 +1,7 @@
+<?php $currentPage = 'About'; ?> 
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel ABC - About</title>
 <?php include ("includes/head.php") ?>
 </head>
 <body>

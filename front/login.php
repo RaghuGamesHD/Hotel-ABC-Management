@@ -1,6 +1,6 @@
+<?php $currentPage = 'Login'; ?> 
 <!DOCTYPE HTML>
 <head>
-<title>Hotel ABC - Login</title>
 
 <?php include ("includes/head.php") ?>
 

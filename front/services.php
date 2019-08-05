@@ -1,7 +1,7 @@
+<?php $currentPage = 'Services'; ?> 
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel ABC - Services</title>
 <link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
 <?php include ("includes/head.php") ?>
 </head>

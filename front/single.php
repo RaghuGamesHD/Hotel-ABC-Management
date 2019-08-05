@@ -1,7 +1,7 @@
+<?php $currentPage = 'Single'; ?> 
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Hotel ABC - Single</title>
 <?php include ("includes/head.php") ?>
 </head>
 <body>

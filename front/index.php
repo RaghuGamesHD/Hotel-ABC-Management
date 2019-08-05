@@ -1,4 +1,4 @@
-<?php
+<?php $currentPage = 'Home'; 
 include("../includes/config.php");
 ?>
 <!DOCTYPE HTML>

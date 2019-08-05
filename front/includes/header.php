@@ -1,3 +1,11 @@
+<?php
+function activeClass($page) {
+	global $currentPage;
+	if($currentPage == $page){
+		echo 'class="active"';
+	}
+}
+?>
 <!--header-top start here-->
 <div class="top-header">
 	<div class="container">
@@ -45,12 +53,12 @@
 		            <div id="navbar" class="navbar-collapse collapse">
 		            <nav class="cl-effect-16" id="cl-effect-16">
 		              <ul class="nav navbar-nav">
-		               <li><a class="active" href="index.php" data-hover="Home">Home</a></li>
-		                <li><a href="about.php" data-hover="About">About</a></li>
-						<li><a href="services.php" data-hover="Services">Services</a></li>
-						<li><a href="room.php" data-hover="Rooms">Rooms</a></li>
+		               <li><a <?php activeClass('Home') ?> href="index.php" data-hover="Home">Home</a></li>
+		                <li><a <?php activeClass('About') ?> href="about.php" data-hover="About">About</a></li>
+						<li><a <?php activeClass('Services') ?>href="services.php" data-hover="Services">Services</a></li>
+						<li><a <?php activeClass('Room') ?>href="room.php" data-hover="Rooms">Rooms</a></li>
 						<li><a href="shortcodes.php" data-hover="Shortcodes">Shortcodes</a></li>
-						<li><a href="contact.php" data-hover="Contact">Contact</a></li>						
+						<li><a <?php activeClass('Contact') ?>href="contact.php" data-hover="Contact">Contact</a></li>						
 		              </ul>
 		            </nav>
 

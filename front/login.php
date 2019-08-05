@@ -2,13 +2,14 @@
 <head>
 <title>Hotel ABC - Login</title>
 
-<?php include ("head.php") ?>
+<?php include ("includes/head.php") ?>
 
 </head>
 
-<?php include ("header.php") ?>
+<?php include ("includes/header.php") ?>
 
 <!-- Login Form -->
+<div class="container">
 <div class="bs-example" data-example-id="simple-horizontal-form">
     <form class="form-horizontal">
       <div class="form-group">
@@ -39,5 +40,6 @@
       </div>
     </form>
 </div>
+</div>
 
-<?php include ("footer.php") ?>
+<?php include ("includes/footer.php") ?>

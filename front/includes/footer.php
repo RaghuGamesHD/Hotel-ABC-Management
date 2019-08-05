@@ -35,11 +35,11 @@
 			<div class="col-md-3 ftr-grid ftr-last-gd ftr-rit wow zoomIn" data-wow-delay="0.3s">
 				 <h3>Quick Link</h3>
 				  <ul class="ftr-nav">
-				 	<li><a href="index.html">Home</a></li>
-				 	<li><a href="about.html">About</a></li>
-				 	<li><a href="services.html">Services </a></li>
-				 	<li><a href="room.html">Rooms</a></li>
-				 	<li><a href="contact.html">Contact</a></li>
+				 	<li><a href="index.php">Home</a></li>
+				 	<li><a href="about.php">About</a></li>
+				 	<li><a href="services.php">Services </a></li>
+				 	<li><a href="room.php">Rooms</a></li>
+				 	<li><a href="contact.php">Contact</a></li>
 				 </ul>
 			</div>
 			<div class="clearfix"> </div>

@@ -45,12 +45,12 @@
 		            <div id="navbar" class="navbar-collapse collapse">
 		            <nav class="cl-effect-16" id="cl-effect-16">
 		              <ul class="nav navbar-nav">
-		               <li><a class="active" href="index.html" data-hover="Home">Home</a></li>
-		                <li><a href="about.html" data-hover="About">About</a></li>
-						<li><a href="services.html" data-hover="Services">Services</a></li>
-						<li><a href="room.html" data-hover="Rooms">Rooms</a></li>
-						<li><a href="shortcodes.html" data-hover="Shortcodes">Shortcodes</a></li>
-						<li><a href="contact.html" data-hover="Contact">Contact</a></li>						
+		               <li><a class="active" href="index.php" data-hover="Home">Home</a></li>
+		                <li><a href="about.php" data-hover="About">About</a></li>
+						<li><a href="services.php" data-hover="Services">Services</a></li>
+						<li><a href="room.php" data-hover="Rooms">Rooms</a></li>
+						<li><a href="shortcodes.php" data-hover="Shortcodes">Shortcodes</a></li>
+						<li><a href="contact.php" data-hover="Contact">Contact</a></li>						
 		              </ul>
 		            </nav>
 

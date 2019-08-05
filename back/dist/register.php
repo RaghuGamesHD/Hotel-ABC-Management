@@ -1,4 +1,19 @@
-<?php $currentPage = 'Register'; ?> 
+<?php $currentPage = 'Register'; 
+include("../../includes/config.php");
+include("includes/classes/Account.php");
+include("includes/classes/Constants.php");
+
+$account = new Account($con); // creating an instance of the Account class and passing connection variable to it
+
+include("includes/handlers/register-handler.php");
+
+function getInputValue ($name) {
+    if (isset($_POST[$name]) == true) {
+        echo $_POST[$name];
+    }
+}
+
+?> 
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,29 +32,50 @@
                         Register New User
                     </div>
 
-                    <div>
+                    <form id = "registerForm" action = "register.php" method = "POST">
                         <div class="form-group">
                             <label class="form-control-label">Name</label>
-                            <input type="name" class="form-control">
+                            <input type="text" name = "registerName" id = "registerName" class="form-control" value = "<?php getInputValue('registerName') ?>" required> 
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-control-label">Username</label>
+                            <input type="text" name = "registerUsername" id = "registerUsername" class="form-control" value = "<?php getInputValue('registerUsername') ?>" required>
+                            <?php echo $account->getError(Constants::$BadUsernameLength); ?>
+                            <?php echo $account->getError(Constants::$UsernameTaken); ?>
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Email</label>
-                            <input type="email" class="form-control">
+                            <input type="email" name = "registerEmail" id = "registerEmail" class="form-control" value = "<?php getInputValue('registerEmail') ?>" required>
+                            <?php echo $account->getError(Constants::$InvalidEmail); ?>
+                            <?php echo $account->getError(Constants::$EmailTaken); ?> 
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Password</label>
-                            <input type="password" class="form-control">
+                            <input type="password" name = "registerPassword" id = "registerPassword" class="form-control" required>
+                            <?php echo $account->getError(Constants::$InvalidPassword); ?>
+                            <?php echo $account->getError(Constants::$BadPasswordLength); ?> 
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Confirm Password</label>
-                            <input type="password" class="form-control">
+                            <input type="password" name = "registerConfirmPassword" id = "registerConfirmPassword" class="form-control"  required>
+                            <?php echo $account->getError(Constants::$PasswordsNotMatching); ?> 
                         </div>
-                    </div>
+
+                        <div class="form-group">
+                            <label class="form-control-label">User Role</label>
+                            <select name = "registerRole" id = "registerRole" class="form-control" value = "<?php getInputValue('registerRole') ?>" required>
+                                <option value = "1"> Admin </option>
+                                <option value = "2"> Staff </option>
+                            </select>
+                        </div>
+                        <button type="submit" name = "registerButton" class="btn btn-success btn-block">Create Account</button>
+                    </form>
                     <div>
-                        <button type="submit" class="btn btn-success btn-block">Create Account</button>
+             
                     </div>
                 </div>
             </div>

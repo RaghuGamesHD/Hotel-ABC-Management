@@ -1,4 +1,18 @@
-<?php $currentPage = 'Login'; ?> 
+<?php $currentPage = 'Login';
+include("../../includes/config.php");
+include("includes/classes/Account.php");
+include("includes/classes/Constants.php");
+
+$account = new Account($con); // creating an instance of the Account class and passing connection variable to it
+
+include("includes/handlers/login-handler.php");
+
+function getInputValue ($name) {
+    if (isset($_POST[$name]) == true) {
+        echo $_POST[$name];
+    }
+}
+?> 
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,29 +27,34 @@
                     <div class="card-header text-center text-uppercase h4 font-weight-light">
                         Login
                     </div>
-
+                    <form id = "loginForm" action = "login.php" method = "POST">
                     <div class="card-body py-5">
                         <div class="form-group">
-                            <label class="form-control-label">Email</label>
-                            <input type="email" class="form-control">
+                            <label class="form-control-label">Username</label>
+                            <input type="text" name = "loginUsername" id = "loginUsername" class="form-control" value = "<?php getInputValue('loginUsername') ?>" required>
                         </div>
 
                         <div class="form-group">
                             <label class="form-control-label">Password</label>
-                            <input type="password" class="form-control">
+                            <input type="password" name = "loginPassword" id = "loginPassword" class="form-control" required>
                         </div>
+
+                        <p> <?php echo $account->getError(Constants::$LoginFailed); ?> </p>
 
                         <div class="custom-control custom-checkbox mt-4">
                             <input type="checkbox" class="custom-control-input" id="login">
-                            <label class="custom-control-label" for="login">Check this custom checkbox</label>
+                            <label class="custom-control-label" for="login">Remember me</label>
                         </div>
                     </div>
 
                     <div class="card-footer">
                         <div class="row">
                             <div class="col-6">
-                                <button type="submit" class="btn btn-primary px-5">Login</button>
+                                <button type="submit" name = "loginButton" class="btn btn-primary px-5">Login</button>
                             </div>
+                        </div>
+                    </div>
+                </form>
 
                             <div class="col-6">
                                 <a href="#" class="btn btn-link">Forgot password?</a>

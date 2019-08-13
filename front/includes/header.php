@@ -47,7 +47,7 @@ function activeClass($page) {
 			                <span class="icon-bar"></span>
 			              </button>
 			              <div class="logo wow slideInLeft" data-wow-delay="0.3s">
-			                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" /></a>
+			                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" style="height: 25px; width: 121px;" /></a>
 			              </div>
 			          </div>
 		            <div id="navbar" class="navbar-collapse collapse">

@@ -2,6 +2,7 @@
 <html>
 <head>
 <title> Hotel ABC: Home </title>
+<script> window.location.replace("front"); </script> <!-- redirect to front page -->
 <link rel = "stylesheet" type = "text/css" href = "assets/css/ui.calendars.picker.css">
 <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
 </head>

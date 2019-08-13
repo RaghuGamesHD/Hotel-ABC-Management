@@ -47,8 +47,8 @@ include("../includes/config.php");
 <div class="banner">
 	<div class="container">
 		<div class="banner-main wow zoomIn" data-wow-delay="0.3s">
-			<h2>MR HOTELS</h2>
-			<h6>Welcome To Our Hotels</h6>
+			<h2>HOTEL ABC</h2>
+			<h6>Your home away from home</h6>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 		</div>
     </div>

@@ -4,10 +4,10 @@
 		<div class="footer-main">
 			<div class="col-md-3 ftr-grid wow zoomIn" data-wow-delay="0.3s">
 				<div class="ftr-logo">
-				<img src="images/ftr-logo.png"  alt="">
+				<img style = "height: 34px; width: 187px;" src="images/ftr-logo.png"  alt="">
 				</div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-				<a href="single.html" class="ftr-btn">Read More</a>
+				<a href="single.php" class="ftr-btn">Read More</a>
 			</div>
 			<div class="col-md-3 ftr-grid ftr-mid wow zoomIn" data-wow-delay="0.3s">
 				 <h3>Address</h3>

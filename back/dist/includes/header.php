@@ -28,8 +28,8 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img src="./imgs/avatar-1.png" class="avatar avatar-sm" alt="logo">
-                    <span class="small ml-1 d-md-down-none">John Smith</span>
+                    <img src="<?php echo $UserLoggedIn->getProfilePic(); ?>" class="avatar avatar-sm" alt="staff pic">
+                    <span class="small ml-1 d-md-down-none"><?php echo $UserLoggedIn->getTheName(); ?></span>
                 </a>
 
                 <div class="dropdown-menu dropdown-menu-right">
@@ -53,9 +53,9 @@
                         <i class="fa fa-wrench"></i> Settings
                     </a>
 
-                    <a href="#" class="dropdown-item">
+                    <button onclick = "logout()" class="dropdown-item">
                         <i class="fa fa-lock"></i> Logout
-                    </a>
+                    </button>
                 </div>
             </li>
         </ul>

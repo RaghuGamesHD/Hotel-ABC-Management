@@ -1,4 +1,6 @@
-<?php $currentPage = 'Home'; ?> 
+<?php $currentPage = 'Home'; 
+include("includes/IncludedFiles.php");
+?> 
 <!doctype html>
 <html lang="en">
 <head>

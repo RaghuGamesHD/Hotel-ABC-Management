@@ -5,3 +5,4 @@
 <link rel="stylesheet" href="./vendor/simple-line-icons/css/simple-line-icons.css">
 <link rel="stylesheet" href="./vendor/font-awesome/css/fontawesome-all.min.css">
 <link rel="stylesheet" href="./css/styles.css">
+<script src="./js/script.js"> </script>

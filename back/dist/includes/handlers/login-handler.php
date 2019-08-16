@@ -7,9 +7,8 @@ if(isset($_POST['loginButton'])) {
 	// login function
 	$result = $account->login($username, $password);
 	if($result == true) {
-		// $_SESSION['UserLoggedIn'] = $username;
+		$_SESSION['UserLoggedIn'] = $username;
 		header("Location: index.php");
-		echo "you are logged in!";
 	}
 }
 ?>

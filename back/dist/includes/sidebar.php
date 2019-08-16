@@ -116,6 +116,91 @@
                             <i class="icon icon-grid"></i> Tables
                         </a>
                     </li>
+<!-- Front Desk -->
+                    <li class="nav-item nav-dropdown">
+                        <a href="#" class="nav-link nav-dropdown-toggle">
+                            <i class="icon icon-notebook"></i> Reservations <i class="fa fa-caret-left"></i>
+                        </a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a href="layouts-normal.html" class="nav-link">
+                                    <i class="icon icon-list"></i> Reservation List
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="layouts-fixed-sidebar.html" class="nav-link">
+                                    <i class="icon icon-target"></i> Add Reservation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="tables.html" class="nav-link">
+                            <i class="icon icon-check"></i> Check-In/Check-Out
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="tables.html" class="nav-link">
+                            <i class="icon icon-key"></i> Rooms
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="tables.html" class="nav-link">
+                            <i class="icon icon-globe"></i> Amenities
+                        </a>    
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="tables.html" class="nav-link">
+                            <i class="icon icon-magic-wand"></i> Special Requests
+                        </a>    
+                    </li>
+
+<!-- Concierge Pages -->
+                    <li class="nav-item nav-dropdown">
+                        <a href="#" class="nav-link nav-dropdown-toggle">
+                            <i class="icon icon-plane"></i> Transport <i class="fa fa-caret-left"></i>
+                        </a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a href="layouts-normal.html" class="nav-link">
+                                    <i class="icon icon-list"></i> Pickup/Dropoff
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="layouts-fixed-sidebar.html" class="nav-link">
+                                    <i class="icon icon-target"></i> Small Tours
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item nav-dropdown">
+                        <a href="#" class="nav-link nav-dropdown-toggle">
+                            <i class="icon icon-plane"></i> Guided Tours <i class="fa fa-caret-left"></i>
+                        </a>
+
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a href="layouts-normal.html" class="nav-link">
+                                    <i class="icon icon-list"></i> Tour List
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="layouts-fixed-sidebar.html" class="nav-link">
+                                    <i class="icon icon-target"></i> Destination Bookings
+                                </a>
+                            </li>
+                        </ul>
+                    </li>                    
 
                     <li class="nav-title">More</li>
 

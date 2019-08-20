@@ -33,13 +33,19 @@ include("includes/IncludedFiles.php");
                             </thead>
                             <tbody>
                                 <!-- for rooms in rooms, repeat -->
-                            <tr href="">
-                                <td>1</td>
-                                <td class="text-nowrap">Samsung Galaxy S8</td>
-                                <td>31,589</td>
-                                <td>$800</td>
-                                <td>5%</td>
-                            </tr>
+                            <?php 
+                            foreach($result as $row) {
+                                ?>
+                                    <tr>
+                                       <td><?php echo $row->Account; ?></td>
+                                       <td><?php echo $row->Username; ?></td>
+                                       <td><?php echo $row->Password; ?></td>
+                                       <td><?php echo $row->Created; ?></td>
+                                       <td><?php echo $row->Strength; ?></td>
+                                    </tr>
+                                <?php
+                            }
+                            ?>
                             </tbody>
                         </table>
                     </div>

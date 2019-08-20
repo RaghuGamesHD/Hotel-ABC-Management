@@ -1,0 +1,1 @@
+<script> window.location.replace("dist"); </script> <!-- redirect to back page -->

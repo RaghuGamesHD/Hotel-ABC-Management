@@ -1,11 +1,16 @@
 <?php $currentPage = 'Login';
 include("../../includes/config.php");
 include("includes/classes/Account.php");
+include("includes/classes/User.php");
 include("includes/classes/Constants.php");
 
 $account = new Account($con); // creating an instance of the Account class and passing connection variable to it
 
 include("includes/handlers/login-handler.php");
+
+if(isset($_SESSION['UserLoggedIn'])) {
+    header("Location: index.php");
+}
 
 function getInputValue ($name) {
     if (isset($_POST[$name]) == true) {

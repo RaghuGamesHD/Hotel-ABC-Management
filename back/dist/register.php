@@ -1,7 +1,5 @@
 <?php $currentPage = 'Register'; 
-include("../../includes/config.php");
-include("includes/classes/Account.php");
-include("includes/classes/Constants.php");
+include("includes/IncludedFiles.php");
 
 $account = new Account($con); // creating an instance of the Account class and passing connection variable to it
 

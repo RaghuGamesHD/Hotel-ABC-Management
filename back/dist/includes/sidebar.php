@@ -196,7 +196,7 @@
 
                             <li class="nav-item">
                                 <a href="layouts-fixed-sidebar.html" class="nav-link">
-                                    <i class="icon icon-target"></i> Destination Bookings
+                                    <i class="icon icon-target"></i> Destination Bookings   
                                 </a>
                             </li>
                         </ul>

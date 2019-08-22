@@ -35,7 +35,7 @@
 					</div>
 					<div class="clearfix"> </div>
 					<div class="ser-text">
-						<h4>On the other hand</h4>
+						<h4>Deluxe Rooms</h4>
 						<p>On the other hand, we denounce with righteous indignation and dislike men</p>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 					</div>
 					<div class="clearfix"> </div>
 					<div class="ser-text">
-						<h4>Sed  perspiciatis</h4>
+						<h4>Suites</h4>
 						<p>On the other hand, we denounce with righteous indignation and dislike men</p>
 					</div>
 				</div>
@@ -79,7 +79,7 @@
 					</div>
 					<div class="clearfix"> </div>
 					<div class="ser-text">
-						<h4>Deluxe Rooms</h4>
+						<h4>Villas</h4>
 						<p>On the other hand, we denounce with righteous indignation and dislike men</p>
 					</div>
 				</div>			
@@ -93,7 +93,7 @@
 <div class="ser-strip">
 	<div class="container">
 		<div class="ser-strip-main wow rollIn" data-wow-delay="0.3s">
-			   <h2>Suites</h2>
+			   <h2>Nemo enim ipsam</h2>
 			   <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
 			<div class="clearfix"> </div>
 		</div>
@@ -105,7 +105,7 @@
 	<div class="container">
 		<div class="features-main">
 			<div class="features-top wow slideInLeft" data-wow-delay="0.3s">
-				<h3>Villas</h3>
+				<h3>Our Features</h3>
 				<h4>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</h4>
 			</div>
 			<div class="features-bottom wow slideInRight" data-wow-delay="0.3s">

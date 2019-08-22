@@ -18,7 +18,7 @@
 			 <div class="rooms-top">
 			    <div class="rooms-left wow slideInLeft" data-wow-delay="0.3s">
 				 	<div class="col-md-4 rooms-text">
-				 		<h2><a href="single.html">Sed perspiciatis</a></h2>
+				 		<h2><a href="single.html">Deluxe Room</a></h2>
 				 		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
 				 	    <div class="room-btn">
 				 	      <a href="single.html" class="hvr-push">Read More</a>	
@@ -36,7 +36,7 @@
 				 	 <a href="single.html"> <img src="images/r2.jpg" alt="" class="img-responsive"></a>
 				 	</div>
 				 	<div class="col-md-4 rooms-text ulta-text">
-				 		<h3><a href="single.html">Vero accusamus</a></h3>
+				 		<h3><a href="single.html">Suite</a></h3>
 				 		<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
 				 	    <div class="room-btn">
 				 	      <a href="single.html" class="hvr-push">Read More</a>	
@@ -63,7 +63,7 @@
 						<figure class="effect-bubba">
 							<img class="img-responsive" src="images/r3.jpg" alt="">
 							<figcaption>
-								<h4 class="gal"> Nemo voluptatem</h4>
+								<h4 class="gal"> Standard Room</h4>
 								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
 							</figcaption>			
 						</figure>
@@ -74,7 +74,7 @@
 						<figure class="effect-bubba">
 							<img class="img-responsive" src="images/r4.jpg" alt="">
 							<figcaption>
-								<h4 class="gal">Nemo voluptatem</h4>
+								<h4 class="gal">Deluxe Room</h4>
 								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
 							</figcaption>			
 						</figure>
@@ -85,7 +85,7 @@
 						<figure class="effect-bubba">
 							<img class="img-responsive" src="images/r5.jpg" alt="">
 							<figcaption>
-								<h4 class="gal">Nemo voluptatem</h4>
+								<h4 class="gal">Single Room</h4>
 								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
 							</figcaption>			
 						</figure>
@@ -96,7 +96,7 @@
 						<figure class="effect-bubba">
 							<img class="img-responsive" src="images/r6.jpg" alt="">
 							<figcaption>
-								<h4 class="gal">Nemo voluptatem</h4>
+								<h4 class="gal">Single room</h4>
 								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
 							</figcaption>			
 						</figure>
@@ -107,7 +107,7 @@
 						<figure class="effect-bubba">
 							<img class="img-responsive" src="images/r7.jpg" alt="">
 							<figcaption>
-								<h4 class="gal">Nemo voluptatem</h4>
+								<h4 class="gal">Villa</h4>
 								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
 							</figcaption>			
 						</figure>
@@ -118,7 +118,7 @@
 						<figure class="effect-bubba">
 							<img class="img-responsive" src="images/r8.jpg" alt="">
 							<figcaption>
-								<h4 class="gal">Nemo voluptatem</h4>
+								<h4 class="gal">Villa</h4>
 								<p class="gal1">In sit amet sapien eros Integer dolore magna aliqua</p>	
 							</figcaption>			
 						</figure>

@@ -25,7 +25,7 @@
 									Our Rooms
 									<div class="line"> </div>
 								</div>
-								<div class="date">February 29, 2016</div>							
+								<div class="date">February 29, 2019</div>							
 							</div>
 							<div class="mask"> </div>
 					    </a>
@@ -47,7 +47,7 @@
 									Our Rooms
 									<div class="line"> </div>
 								</div>
-								<div class="date">February 29, 2016</div>							
+								<div class="date">February 29, 2019</div>							
 							</div>
 							<div class="mask"> </div>
 					    </a>
@@ -69,7 +69,7 @@
 									Our Rooms
 									<div class="line"> </div>
 								</div>
-								<div class="date">February 29, 2016</div>							
+								<div class="date">February 29, 2019</div>							
 							</div>
 							<div class="mask"> </div>
 					    </a>
@@ -79,7 +79,7 @@
 					</div>
 					<div class="clearfix"> </div>
 					<div class="ser-text">
-						<h4>On the other hand</h4>
+						<h4>Deluxe Rooms</h4>
 						<p>On the other hand, we denounce with righteous indignation and dislike men</p>
 					</div>
 				</div>			
@@ -93,7 +93,7 @@
 <div class="ser-strip">
 	<div class="container">
 		<div class="ser-strip-main wow rollIn" data-wow-delay="0.3s">
-			   <h2>Nemo enim ipsam</h2>
+			   <h2>Suites</h2>
 			   <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.</p>
 			<div class="clearfix"> </div>
 		</div>
@@ -105,7 +105,7 @@
 	<div class="container">
 		<div class="features-main">
 			<div class="features-top wow slideInLeft" data-wow-delay="0.3s">
-				<h3>Our Features</h3>
+				<h3>Villas</h3>
 				<h4>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae</h4>
 			</div>
 			<div class="features-bottom wow slideInRight" data-wow-delay="0.3s">

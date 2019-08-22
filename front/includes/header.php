@@ -21,7 +21,7 @@ function activeClass($page) {
 			</div>
 			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
 				<ul>
-					<li><span class="phone"> </span> <h6>(220) 280-31589</h6></li>
+					<li><span class="phone"> </span> <h6>123456789</h6></li>
 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
 				</ul>
 			</div>
@@ -57,9 +57,10 @@ function activeClass($page) {
 		                <li><a <?php activeClass('About') ?> href="about.php" data-hover="About">About</a></li>
 						<li><a <?php activeClass('Services') ?>href="services.php" data-hover="Services">Services</a></li>
 						<li><a <?php activeClass('Room') ?>href="room.php" data-hover="Rooms">Rooms</a></li>
-						<li><a href="shortcodes.html" data-hover="Shortcodes">Shortcodes</a></li>
+						<!--<li><a href="shortcodes.html" data-hover="Shortcodes">Shortcodes</a></li>-->
+						<li><a <?php activeClass('Contact') ?>href="contact.php" data-hover="Contact">Contact</a></li>	
 						<li><a <?php activeClass('Login') ?>href="../back/dist/login.php" data-hover="Login">Login</a></li>
-						<li><a <?php activeClass('Contact') ?>href="contact.php" data-hover="Contact">Contact</a></li>						
+											
 		              </ul>
 		            </nav>
 

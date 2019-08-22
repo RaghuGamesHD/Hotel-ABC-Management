@@ -81,7 +81,7 @@ include("../includes/config.php");
 			  			<img src="images/s2.png" alt="">
 			  		</div>
 			  		<div class="info-right">
-			  			<h4>services</h4>
+			  			<h4>Services</h4>
 			  			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.</p>
 			  		</div>
 			  	  <div class="clearfix"> </div>
@@ -263,10 +263,10 @@ include("../includes/config.php");
 						<a class="item-hover" href="single.html">						
 							<div class="item-info">
 								<div class="headline">
-									Our Rooms
+									Deluxe Rooms
 									<div class="line"> </div>
 								</div>
-								<div class="date">February 29, 2016</div>							
+								<div class="date">February 29, 2019</div>							
 							</div>
 							<div class="mask"> </div>
 					    </a>
@@ -281,10 +281,10 @@ include("../includes/config.php");
 						<a class="item-hover" href="single.html">						
 							<div class="item-info">
 								<div class="headline">
-									Our Rooms
+									Villas
 									<div class="line"> </div>
 								</div>
-								<div class="date">February 29, 2016</div>							
+								<div class="date">February 29, 2019</div>							
 							</div>
 							<div class="mask"> </div>
 					    </a>
@@ -298,10 +298,10 @@ include("../includes/config.php");
 						<a class="item-hover" href="single.html">						
 							<div class="item-info">
 								<div class="headline">
-									Our Rooms
+									Suites
 									<div class="line"> </div>
 								</div>
-								<div class="date">February 29, 2016</div>							
+								<div class="date">February 29, 2019</div>							
 							</div>
 							<div class="mask"> </div>
 					    </a>

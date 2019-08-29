@@ -9,7 +9,7 @@
 <!-- Booking Form -->
 <div class="container">
 <div class="about-top">
-	<h1 style = "margin-top: 10px;"> Book a Room </h1>
+	<h1 style = "margin-top: 10px; margin-bottom: -1em;"> Book a Room </h1>
 </div>
 <div class="bs-example" data-example-id="simple-horizontal-form">
     <form class="form-horizontal">

@@ -21,8 +21,8 @@ function activeClass($page) {
 			</div>
 			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
 				<ul>
-					<li><span class="phone"> </span> <h6>123456789</h6></li>
-					<li><span class="email"> </span><h6><a href="mailto:info@example.com">Youremail@gmail.com</a></h6></li>
+					<li><span class="phone"> </span> <h6>1-800-STAY-ABC</h6></li>
+					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@hotelabc.com</a></h6></li>
 				</ul>
 			</div>
 		  <div class="clearfix"> </div>

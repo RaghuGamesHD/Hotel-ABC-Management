@@ -23,3 +23,5 @@
 <script src="js/bootstrap.min.js"></script>
 <!-- calendar picker css -->
 <link href = "css/ui.calendars.picker.css" type = "text/css">
+<!-- page scripts -->
+<script src="js/script.js"></script>

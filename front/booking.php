@@ -14,15 +14,15 @@
 <div class="bs-example" data-example-id="simple-horizontal-form">
     <form class="form-horizontal">
       <div class="form-group">
-        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <label for="inputEmail3" class="col-sm-2 control-label">Check-In</label>
         <div class="col-sm-10">
-        	<input type="text" class = "ui-datepicker">
+        	<input type="date">
         </div>
       </div>
       <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+        <label for="inputPassword3" class="col-sm-2 control-label">Check-Out</label>
         <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+          <input type="date">
         </div>
       </div>
       <div class="form-group">

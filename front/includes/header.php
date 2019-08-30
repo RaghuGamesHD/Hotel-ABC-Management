@@ -21,7 +21,7 @@ function activeClass($page) {
 			</div>
 			<div class="col-md-8 header-address wow bounceInRight" data-wow-delay="0.3s">
 				<ul>
-					<li><span class="phone"> </span> <h6>1-800-STAY-ABC</h6></li>
+					<li><span class="phone"> </span> <h6><a href="tel:1-800-STAY-ABC">1-800-STAY-ABC</a></h6></li>
 					<li><span class="email"> </span><h6><a href="mailto:info@example.com">contact@hotelabc.com</a></h6></li>
 				</ul>
 			</div>
@@ -60,6 +60,7 @@ function activeClass($page) {
 						<!--<li><a href="shortcodes.html" data-hover="Shortcodes">Shortcodes</a></li>-->
 						<li><a <?php activeClass('Contact') ?>href="contact.php" data-hover="Contact">Contact</a></li>	
 						<li><a <?php activeClass('Login') ?>href="../back/dist/login.php" data-hover="Login">Login</a></li>
+						<li  style = "border: 1px solid #000; border-radius: 50px;"><a <?php activeClass('Booking') ?>href="booking.php" data-hover="Book Now">Book Now</a></li>
 											
 		              </ul>
 		            </nav>

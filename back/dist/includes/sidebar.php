@@ -124,14 +124,14 @@
 
                         <ul class="nav-dropdown-items">
                             <li class="nav-item">
-                                <a href="layouts-normal.html" class="nav-link">
+                                <a href="reservation-list.php" class="nav-link">
                                     <i class="icon icon-list"></i> Reservation List
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="layouts-fixed-sidebar.html" class="nav-link">
-                                    <i class="icon icon-target"></i> Add Reservation
+                                <a href="reservation-create.php" class="nav-link">
+                                    <i class="icon icon-target"></i> Add / Update Reservation
                                 </a>
                             </li>
                         </ul>
@@ -189,14 +189,20 @@
 
                         <ul class="nav-dropdown-items">
                             <li class="nav-item">
-                                <a href="layouts-normal.html" class="nav-link">
+                                <a href="tour-list.php" class="nav-link">
                                     <i class="icon icon-list"></i> Tour List
                                 </a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="layouts-fixed-sidebar.html" class="nav-link">
+                                <a href="tour-bookings.php" class="nav-link">
                                     <i class="icon icon-target"></i> Destination Bookings   
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="tour-booking-create.php" class="nav-link">
+                                    <i class="icon icon-target"></i> Add / Update Tour Booking
                                 </a>
                             </li>
                         </ul>

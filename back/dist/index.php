@@ -20,7 +20,7 @@ include("includes/IncludedFiles.php");
                         <div class="card p-4">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <span class="h4 d-block font-weight-normal mb-2">54</span>
+                                    <span class="h4 d-block font-weight-normal mb-2">50</span>
                                     <span class="font-weight-light">Total Users</span>
                                 </div>
 
@@ -35,7 +35,7 @@ include("includes/IncludedFiles.php");
                         <div class="card p-4">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <span class="h4 d-block font-weight-normal mb-2">$32,400</span>
+                                    <span class="h4 d-block font-weight-normal mb-2">$4,400</span>
                                     <span class="font-weight-light">Income</span>
                                 </div>
 
@@ -50,12 +50,12 @@ include("includes/IncludedFiles.php");
                         <div class="card p-4">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <span class="h4 d-block font-weight-normal mb-2">900</span>
-                                    <span class="font-weight-light">Downloads</span>
+                                    <span class="h4 d-block font-weight-normal mb-2">40</span>
+                                    <span class="font-weight-light">Reservations</span>
                                 </div>
 
                                 <div class="h2 text-muted">
-                                    <i class="icon icon-cloud-download"></i>
+                                    <i class="icon icon-notebook"></i>
                                 </div>
                             </div>
                         </div>
@@ -65,12 +65,12 @@ include("includes/IncludedFiles.php");
                         <div class="card p-4">
                             <div class="card-body d-flex justify-content-between align-items-center">
                                 <div>
-                                    <span class="h4 d-block font-weight-normal mb-2">32s</span>
-                                    <span class="font-weight-light">Time</span>
+                                    <span class="h4 d-block font-weight-normal mb-2">1,411</span>
+                                    <span class="font-weight-light">Page Views</span>
                                 </div>
 
                                 <div class="h2 text-muted">
-                                    <i class="icon icon-clock"></i>
+                                    <i class="icon icon-eye"></i>
                                 </div>
                             </div>
                         </div>
@@ -91,23 +91,23 @@ include("includes/IncludedFiles.php");
 
                                 <div class="justify-content-around mt-4 p-4 bg-light d-flex border-top d-md-down-none">
                                     <div class="text-center">
-                                        <div class="text-muted small">Total Traffic</div>
-                                        <div>12,457 Users (40%)</div>
+                                        <div class="text-muted small">Total Users</div>
+                                        <div>50 Users</div>
                                     </div>
 
                                     <div class="text-center">
                                         <div class="text-muted small">Banned Users</div>
-                                        <div>95,333 Users (5%)</div>
+                                        <div>5 Users (10%)</div>
                                     </div>
 
                                     <div class="text-center">
                                         <div class="text-muted small">Page Views</div>
-                                        <div>957,565 Pages (50%)</div>
+                                        <div>1,411 Views</div>
                                     </div>
 
                                     <div class="text-center">
-                                        <div class="text-muted small">Total Downloads</div>
-                                        <div>957,565 Files (100 TB)</div>
+                                        <div class="text-muted small">File Storage</div>
+                                        <div>101 Files (1.5 GB)</div>
                                     </div>
                                 </div>
                             </div>

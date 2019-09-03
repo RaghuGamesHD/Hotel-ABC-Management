@@ -29,7 +29,8 @@ function getInputValue ($name) {
                 <div class="text-center text-uppercase h4 font-weight-light">
                         Register New User
                     </div>
-
+                    <div class = "alert alert-success" id = "alert-success" role = "alert"> The user was created successfully. </div>
+                    <div class = "alert alert-danger" id = "alert-danger" role = "alert"> The user could not be created due to an error. </div>
                     <form id = "registerForm" action = "register.php" method = "POST">
                         <div class="form-group">
                             <label class="form-control-label">Name</label>
@@ -66,6 +67,7 @@ function getInputValue ($name) {
                         <div class="form-group">
                             <label class="form-control-label">User Role</label>
                             <select name = "registerRole" id = "registerRole" class="form-control" value = "<?php getInputValue('registerRole') ?>" required>
+                                <option value = ""> </option>
                                 <option value = "1"> Admin </option>
                                 <option value = "2"> Staff </option>
                             </select>
